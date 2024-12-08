@@ -1,12 +1,12 @@
 <?php
-require_once APP_ROOT."/app/services/NewsServices.php";
+require_once "../app/services/NewsServices.php";
 
 class NewsController{
     public function index(){
         $news_services = new NewsService();
         $news = $news_services->getAllNews();
         $categories = $news_services->getAllCategories();
-        include APP_ROOT."/views/home/index.php";
+        include APP_ROOT . "/views/home/index.blade.php";
     }
 
     public function detail() {
@@ -22,7 +22,7 @@ class NewsController{
             $news_services = new NewsService();
             $categories = $news_services->getAllCategories();
             $news = $news_services->getByCategoryId($_GET["category_id"]);
-            include APP_ROOT."/views/home/index.php";
+            include APP_ROOT . "/views/home/index.blade.php";
         }
     }
 }

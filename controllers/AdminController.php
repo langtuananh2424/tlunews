@@ -1,6 +1,6 @@
 <?php
-require_once APP_ROOT."/services/AdminService.php";
-require_once APP_ROOT."/services/NewsService.php";
+require_once "../services/AdminService.php";
+require_once "../services/NewsService.php";
 
 class AdminController{
     public function dashboard(){

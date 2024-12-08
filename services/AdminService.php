@@ -1,5 +1,5 @@
 <?php
-require_once APP_ROOT."/Utilities/Database.php";
+require_once "../Utilities/Database.php";
 
 class AdminService {
     public function addNew($title, $content, $image, $created_at, $category_id) {

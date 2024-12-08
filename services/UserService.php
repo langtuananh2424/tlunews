@@ -1,6 +1,6 @@
 <?php
-    require_once APP_ROOT . "/models/User.php";
-    require_once APP_ROOT . "/Utilities/Database.php";
+    require_once "../models/User.php";
+    require_once "../Utilities/Database.php";
 
     class UserService {
         public function getUser($username, $password) {

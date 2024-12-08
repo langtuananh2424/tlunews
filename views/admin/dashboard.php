@@ -80,7 +80,7 @@
                 <div class="card text-white bg-primary mb-3">
                     <div class="card-body">
                         <h5 class="card-title"><i class="fas fa-newspaper"></i> Total News</h5>
-                        <p class="card-text"><?= $n->getNewsCount()?></p>
+                        <p class="card-text"><?= $news_services->getNewsCount()?></p>
                     </div>
                 </div>
             </div>
@@ -88,7 +88,7 @@
                 <div class="card text-white bg-success mb-3">
                     <div class="card-body">
                         <h5 class="card-title"><i class="fas fa-users"></i> Total Users</h5>
-                        <p class="card-text"><?= $n->getUserCount();?></p>
+                        <p class="card-text"><?= $news_services->getUserCount();?></p>
                     </div>
                 </div>
             </div>
@@ -96,7 +96,7 @@
                 <div class="card text-white bg-warning mb-3">
                     <div class="card-body">
                         <h5 class="card-title"><i class="fas fa-folder"></i> Total Categories</h5>
-                        <p class="card-text"><?= $n->getCategoryCount();?></p>
+                        <p class="card-text"><?= $news_services->getCategoryCount();?></p>
                     </div>
                 </div>
             </div>

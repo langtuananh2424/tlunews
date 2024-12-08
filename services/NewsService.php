@@ -1,7 +1,7 @@
 <?php
-require_once APP_ROOT."/models/News.php";
-require_once APP_ROOT."/models/Category.php";
-require_once APP_ROOT."/Utilities/Database.php";
+require_once "../models/News.php";
+require_once "../models/Category.php";
+require_once "../Utilities/Database.php";
 
 class NewsService{
     public function getAllNews(){

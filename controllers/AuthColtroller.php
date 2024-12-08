@@ -1,7 +1,7 @@
 <?php
 session_start();
-require_once APP_ROOT . "/services/UserService.php";
-require_once APP_ROOT ."/services/NewsService.php";
+require_once "../services/UserService.php";
+require_once "../services/NewsService.php";
 class AuthColtroller {
     public function index() {
         include APP_ROOT . "/views/admin/login.php";
